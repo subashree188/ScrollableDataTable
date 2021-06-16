@@ -1,0 +1,42 @@
+body{
+	color: #0278ae;
+}
+/*-------------------------------------TABLE STYLES--------------------------------------*/
+
+.table-box{
+    margin-top: 6%;
+    height: 400px;
+    width: 100%;
+    overflow-y: scroll;
+}
+#casewise_table{
+	border-collapse: collapse;
+	border: 3px solid #0278ae;
+	text-align: center;
+}
+#casewise_table tr td {
+	border-collapse: collapse;
+	border: 2px solid #0278ae;
+	
+} 
+#casewise_table th {
+    position: sticky;
+    top: 0;
+}
+#casewise_table th{
+	border-collapse: collapse;
+	border: 2px solid #0278ae;
+    background-color: #0277ae;
+    color: #fff;
+}
+
+#casewise_table tr:hover{
+	background-color: #0278ae;
+    color: #fff;
+    font-weight: bold;
+}
+#casewise_table tr td:hover{
+    background-color: rgba(35, 149, 202, 0.788);
+    color: #fff;
+    font-weight: bold;
+}
